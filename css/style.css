@@ -18,6 +18,11 @@
   --font-weight-heavy: 600;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 body {
   font-family: var(--font-family);
@@ -218,11 +223,6 @@ footer {
   }
 }
 @media screen and (min-width: 1440px) {
-  *,
-  *::before,
-  *::after {
-    box-sizing: border-box;
-  }
   
   .header {
     background-repeat: no-repeat;
