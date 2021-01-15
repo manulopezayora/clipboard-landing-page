@@ -37,7 +37,6 @@ body {
   grid-template-rows: repeat(3, 200px 1fr 1fr);
   height: 100vh;
   place-items: center;
-  padding-top: 100px;
   width: 100%;
 }
 
@@ -220,6 +219,7 @@ footer {
 @media screen and (min-width: 376px) {
   .header {
     background-image: url('../images/bg-header-desktop.png');
+    padding-top: 100px;
   }
 }
 @media screen and (min-width: 1440px) {
